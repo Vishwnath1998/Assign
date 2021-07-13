@@ -1,0 +1,131 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.section{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30vh;
+    margin-top: 10vh;
+    width: 90vh;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    padding: 8px;
+    margin: 0px;
+}
+
+.cart{
+    padding: 80px;
+    flex-direction: row;
+}
+h1{
+    font-family:  'Uchen', serif;
+    margin-bottom: 5px;
+}
+.head{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+ .head p {
+   margin: 5px;  
+}
+.paragraph{
+    display: block;
+    margin: 5px;
+    margin-top:30px;  
+}
+.star span{
+    margin-top: 40px;
+    color:#4dffc3;
+}
+p{
+  color:rgb(10, 10, 10);
+}
+.star1{
+    margin: 0px;
+}
+.star2{
+  text-decoration: underline;
+}
+.star3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.button{
+    height: 40px;
+    width: 130px;
+    background-color:rgb(10, 10, 10);
+    color: #ffff;
+    border: none;
+}
+.button1{
+    height: 40px;
+    width: 170px;
+    background-color:#ffff;
+    color: rgb(14, 13, 13);
+    border-color: rgb(51, 50, 50);
+}
+/*footer*/
+.footer{
+    display: flex ;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-left: 210px;
+
+}
+.first.second.third{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;  
+}
+
+.first.second.third span{
+  font-size: smaller;
+
+}
+.first{
+    padding-right: 250px;
+    
+}
+.second{
+    padding-right: 400px;   
+}
+.third{
+    padding-right: 190px;
+} 
+  
